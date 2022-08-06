@@ -1,5 +1,5 @@
 .select {
-  margin: 100px auto;
+  margin: 50px auto;
 }
 .selectInputs {
   padding: 0 6px 0 20px;
@@ -82,7 +82,7 @@ input:focus {
 
   box-sizing: border-box;
   background: #fff;
-  padding: 0 20px 0px 15px;
+  padding: 0 10px 0px 15px;
   transition: max-height 0.2s ease-in-out;
 }
 

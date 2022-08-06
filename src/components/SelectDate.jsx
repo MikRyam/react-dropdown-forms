@@ -1,6 +1,7 @@
 import React from "react";
-import SelectBar from "./components/SelectBar.jsx";
-import { dayData, monthData, yearData } from "./dateData.js";
+import SelectBar from "./SelectBar.jsx";
+import "../styles/SelectDate.css";
+import { dayData, monthData, yearData } from "../data/dateData.js";
 
 const SelectDate = () => {
   return (
@@ -9,25 +10,25 @@ const SelectDate = () => {
         placeholder="01"
         data={dayData}
         item="day"
-        customWidth="80px"
-        zIndex1="50"
-        zIndex2="40"
+        customWidth="70px"
+        zIndex1="31"
+        zIndex2="30"
       />
       <SelectBar
         placeholder="Января"
         data={monthData}
         item="month"
-        customWidth="150px"
-        zIndex1="50"
-        zIndex2="40"
+        customWidth="110px"
+        zIndex1="21"
+        zIndex2="20"
       />
       <SelectBar
         placeholder="2005"
         data={yearData}
         item="year"
-        customWidth="100px"
-        zIndex1="50"
-        zIndex2="40"
+        customWidth="80px"
+        zIndex1="11"
+        zIndex2="10"
       />
     </div>
   );
