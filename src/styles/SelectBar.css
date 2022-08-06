@@ -1,0 +1,122 @@
+.select {
+  margin: 100px auto;
+}
+.selectInputs {
+  padding: 0 6px 0 20px;
+  /* width: 100px; */
+  max-width: 249px;
+  box-sizing: border-box;
+  background: #fff;
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #b4b4b4;
+  border-radius: 18px;
+  height: 2rem;
+  position: relative;
+  z-index: 70;
+
+  cursor: pointer;
+}
+
+.select input {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  width: 100%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.expandIcon {
+  height: 28px;
+  width: 30px;
+  border-radius: 14px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  color: #707070;
+}
+
+input:focus {
+  outline: none;
+}
+.expandIcon svg {
+  font-size: 20px;
+}
+
+.dropdownboxColors-wrapper {
+  /* width: 100px; */
+  max-height: 250px;
+  margin-top: -14px;
+  padding: 20px 4px 8px 0;
+
+  display: flex;
+  box-sizing: border-box;
+  background: #fff;
+  border-left: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  border-bottom: 1px solid #b4b4b4;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  transition: max-height 0.2s ease-in-out;
+  min-height: 30px;
+
+  position: absolute;
+  z-index: 60;
+}
+
+.dropdownboxColors {
+  margin-right: 4px;
+  width: 100%;
+  max-height: 250px;
+  border-bottom-left-radius: 18px;
+  overflow: hidden;
+  overflow-y: auto;
+
+  box-sizing: border-box;
+  background: #fff;
+  padding: 0 20px 0px 15px;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.dropdownboxColors::-webkit-scrollbar-thumb {
+  background: #b4b4b4;
+  border-radius: 18px;
+}
+
+.dropdownboxColors::-webkit-scrollbar {
+  width: 8px;
+  background-color: #dbdbdb;
+  border-radius: 18px;
+}
+
+.dropdownboxColors .dataItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 0;
+  padding: 6px 8px;
+}
+
+.dataItem:hover {
+  background-color: #f1f1f1;
+}
+
+.dataItem:nth-last-child(1) {
+  margin-bottom: 0px;
+}
