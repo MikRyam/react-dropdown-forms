@@ -38,7 +38,7 @@ const SelectBar = ({
       <div
         className="selectInputs"
         onFocus={expand}
-        style={{ width: customWidth, zindex: zIndex1 }}
+        style={{ width: customWidth, zIndex: zIndex1 }} 
       >
         <input
           readOnly="readonly"
@@ -58,7 +58,7 @@ const SelectBar = ({
       {expanded && (
         <div
           className="dropdownboxColors-wrapper"
-          style={{ width: customWidth, zindex: zIndex2 }}
+          style={{ width: customWidth, zIndex: zIndex2 }}
         >
           <div className="dropdownboxColors">
             {data.map((color) => {

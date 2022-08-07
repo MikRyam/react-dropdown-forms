@@ -11,24 +11,24 @@ const SelectDate = () => {
         data={dayData}
         item="day"
         customWidth="70px"
-        zIndex1="31"
-        zIndex2="30"
+        zIndex1="780"
+        zIndex2="750"
       />
       <SelectBar
         placeholder="Января"
         data={monthData}
         item="month"
         customWidth="110px"
-        zIndex1="21"
-        zIndex2="20"
+        zIndex1="780"
+        zIndex2="750"
       />
       <SelectBar
         placeholder="2005"
         data={yearData}
         item="year"
         customWidth="80px"
-        zIndex1="11"
-        zIndex2="10"
+        zIndex1="780"
+        zIndex2="750"
       />
     </div>
   );
