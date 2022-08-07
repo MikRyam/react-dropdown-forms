@@ -15,8 +15,6 @@ function App() {
       <SelectBar placeholder='Выберите цвет' data={ColorData} item='color' customWidth='249px' zIndex1='70' zIndex2='60' />
       <SelectDate />
       <SelectBar placeholder='00:00' data={timeData} item='time' customWidth='90px' zIndex1='50' zIndex2='40' />
-      
-
     </div >
   );
 };

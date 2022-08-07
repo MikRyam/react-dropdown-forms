@@ -19,14 +19,14 @@ const SelectBar = ({
   const close = () => {
     setTimeout(() => {
       setExpanded(false);
-    }, 150);
+    }, 200);
   };
 
   const onChange = (event) => {
     setValue(event.target.value);
   };
 
-  const getSelectedColor = (color) => {
+  const getSelectedItem = (color) => {
     setValue(color.name);
     close();
     // our api to fetch the select result
@@ -66,7 +66,7 @@ const SelectBar = ({
                 <p
                   key={color.id}
                   className="dataItem"
-                  onClick={() => getSelectedColor(color)}
+                  onClick={() => getSelectedItem(color)}
                 >
                   {color.name}
                 </p>
