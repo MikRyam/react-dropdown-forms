@@ -66,7 +66,7 @@ const SearchBar = ({ placeholder, data }) => {
           )}
         </div>
       </div>
-      {filteredCities.length > 1 && expanded && (
+      {filteredCities.length !==0 && expanded && (
         <div className="dataResult-wrapper">
           <div className="dataResult">
             {filteredCities.slice(0, 50).map((city) => {
